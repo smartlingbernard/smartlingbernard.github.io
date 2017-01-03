@@ -87,7 +87,7 @@
 				company:	"required",
 				checkbox:	"required"
 			},
-			messages:{ "sl_translate": "sl_all",
+			/* <sl:translate_json> */ messages:{ "sl_translate": "sl_all",
 				fullname:	"This field is required -main.js",
 				email	:	{
 					required:"This field is required",
@@ -96,7 +96,7 @@
 				phone	: "Please enter a valid phone number",
 				company	:	"This field is required",
 				checkbox:	"This field is required"
-			}
+			}/* </sl:translate_json> */ 
 		});
 		var form3 = $('#hardware-database-form');
 		form3.validate({
@@ -121,7 +121,7 @@
 				limitation	:	"required",
 				hint		:	"required"
 			},
-			messages:{ "sl_translate": "sl_all",
+			/* <sl:translate_json> */ messages:{ "sl_translate": "sl_all",
 				name		:	"This field is required-main.js",
 				email	:	{
 					required:"This field is required -main.js",
@@ -133,7 +133,7 @@
 				comment		:	"This field is required -main.js",
 				limitation	:	"This field is required -main.js",
 				hint		:	"This field is require -main.jsd"
-			}
+			}/* </sl:translate_json> */ 
 		});
 		var form_schedule = $('#schedule-form');
 		form_schedule.validate({
@@ -153,7 +153,7 @@
 					customphone: true
 				},
 				company		:	"required"
-				},
+				},/* <sl:translate_json> */ 
 				messages:{ "sl_translate": "sl_all",
 					fullname		:	"This field is required -main.js",
 					email	:	{
@@ -163,7 +163,7 @@
 					phone	: "Please enter a valid phone number",
 					company		:	"This field is required -main.js"
 				}
-		});
+		});/* </sl:translate_json> */ 
 
 		function DisableSpecificDates(date) {		
 		    var string = jQuery.datepicker.formatDate('mm/dd/yy', date);		
