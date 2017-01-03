@@ -353,7 +353,7 @@ $.extend( $.validator, {
 	messages: {
 		"sl_translate": "sl_all",
 		required: "This field is required Bernard.",
-		remote: "Please fix this field.",
+		remote: "TEST TEST.",
 		email: "Please enter valid email address",
 		url: "Please enter a valid URL.",
 		date: "Please enter a valid date.",
