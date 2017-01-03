@@ -351,7 +351,7 @@ $.extend( $.validator, {
 	// <sl:translate_json>
 	messages: {
 		"sl_translate": "sl_all",
-		required: "This field is required.",
+		required: "This field is required Bernard.",
 		remote: "Please fix this field.",
 		email: "Please enter valid email address",
 		url: "Please enter a valid URL.",
