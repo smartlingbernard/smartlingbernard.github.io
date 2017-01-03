@@ -29,10 +29,7 @@
 		);
 		$.validator.addMethod('customphone', function (value, element) {
 		    return this.optional(element) || /^\d{3}-\d{3}-\d{4}$/.test(value);
-		}, // <sl:translate>
-"Please enter a valid phone number");
-		// </sl:translate>
-
+		}, "Please enter a valid phone number");
 			
 		var form1 = $('#demo-vali-form1');
 		form1.validate({
@@ -53,20 +50,17 @@
 				},
 				company:	"required",
 			},
-			// <sl:translate>
+			 // <sl:translate>
 			messages:{
-				
-				test: "THIS IS A TEST",
-				fullname:	"This field is required name - main.js",
+				fullname:	"This field is required",
 				email	:	{
-					required:"This field is required email main.js",
-					customemail:"Please enter valid email address main.js",
+					required:"This field is required",
+					customemail:"Please enter valid email address",
 				},
-				phone	: "Please enter a valid phone number phone.main-js",
+				phone	: "Please enter a valid phone number",
 				company	:	"This field is required",
 			}
-			// </sl:translate>
-
+			 // </sl:translate>
 		});
 		$('.demo-page .load_more').click(function(){
 			if(!form1.valid()) return;
@@ -89,8 +83,9 @@
 				company:	"required",
 				checkbox:	"required"
 			},
-			/* <sl:translate_json> */ messages:{ "sl_translate": "sl_all",
-				fullname:	"This field is required -main.js",
+			 // <sl:translate>
+			messages:{"sl_translate":"sl_all",
+				fullname:	"This field is required",
 				email	:	{
 					required:"This field is required",
 					customemail:"Please enter valid email address",
@@ -98,7 +93,8 @@
 				phone	: "Please enter a valid phone number",
 				company	:	"This field is required",
 				checkbox:	"This field is required"
-			}/* </sl:translate_json> */ 
+			}
+			 // </sl:translate>
 		});
 		var form3 = $('#hardware-database-form');
 		form3.validate({
@@ -123,19 +119,21 @@
 				limitation	:	"required",
 				hint		:	"required"
 			},
-			/* <sl:translate_json> */ messages:{ "sl_translate": "sl_all",
-				name		:	"This field is required-main.js",
+			 // <sl:translate>
+			messages:{"sl_translate":"sl_all",
+				name		:	"This field is required",
 				email	:	{
-					required:"This field is required -main.js",
+					required:"This field is required",
 					customemail:"Please enter valid email address",
 				},
 				phone	: "Please enter a valid phone number",
-				company		:	"This field is required-main.js ",
-				firmware	:	"This field is required -main.js",
-				comment		:	"This field is required -main.js",
-				limitation	:	"This field is required -main.js",
-				hint		:	"This field is require -main.jsd"
-			}/* </sl:translate_json> */ 
+				company		:	"This field is required",
+				firmware	:	"This field is required",
+				comment		:	"This field is required",
+				limitation	:	"This field is required",
+				hint		:	"This field is required"
+			}
+			 // </sl:translate>
 		});
 		var form_schedule = $('#schedule-form');
 		form_schedule.validate({
@@ -155,17 +153,19 @@
 					customphone: true
 				},
 				company		:	"required"
-				},/* <sl:translate_json> */ 
-				messages:{ "sl_translate": "sl_all",
-					fullname		:	"This field is required -main.js",
+				},
+				 // <sl:translate> 
+				messages:{"sl_translate":"sl_all",
+					fullname		:	"This field is required",
 					email	:	{
-						required:"This field is required -main.js",
+						required:"This field is required",
 						customemail:"Please enter valid email address",
 					},
 					phone	: "Please enter a valid phone number",
-					company		:	"This field is required -main.js"
+					company		:	"This field is required"
 				}
-		});/* </sl:translate_json> */ 
+				 // </sl:translate>
+		});
 
 		function DisableSpecificDates(date) {		
 		    var string = jQuery.datepicker.formatDate('mm/dd/yy', date);		
