@@ -350,7 +350,7 @@ $.extend( $.validator, {
 	},
 	/*<sl:translate>*/
 	messages: {
-		required: "This field is required.",
+		required: /*<sl:translate>*/"This field is required."/*</sl:translate>*/,
 		remote: "Please fix this field.",
 		email: "Please enter valid email address",
 		url: "Please enter a valid URL.",
