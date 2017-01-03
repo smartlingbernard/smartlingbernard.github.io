@@ -348,9 +348,10 @@ $.extend( $.validator, {
 	setDefaults: function( settings ) {
 		$.extend( $.validator.defaults, settings );
 	},
-	/*<sl:translate>*/
+	// <sl:translate_json>
 	messages: {
-		required: /*<sl:translate>*/"This field is required."/*</sl:translate>*/,
+		"sl_translate": "sl_all",
+		required: "This field is required.",
 		remote: "Please fix this field.",
 		email: "Please enter valid email address",
 		url: "Please enter a valid URL.",
@@ -367,7 +368,7 @@ $.extend( $.validator, {
 		min: $.validator.format( "Please enter a value greater than or equal to {0}." ),
 		step: $.validator.format( "Please enter a multiple of {0}." )
 	},
-	/*</sl:translate>*/
+	// </sl:translate_json>
 
 	autoCreateRanges: false,
 
