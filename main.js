@@ -29,7 +29,10 @@
 		);
 		$.validator.addMethod('customphone', function (value, element) {
 		    return this.optional(element) || /^\d{3}-\d{3}-\d{4}$/.test(value);
-		}, "Please enter a valid phone number");
+		}, // <sl:translate>
+"Please enter a valid phone number");
+		// </sl:translate>
+
 			
 		var form1 = $('#demo-vali-form1');
 		form1.validate({
@@ -49,8 +52,9 @@
 					customphone: true
 				},
 				company:	"required",
-			},
+			},// <sl:translate>
 			messages:{
+
 				fullname:	"This field is required name - main.js",
 				email	:	{
 					required:"This field is required email main.js",
@@ -59,6 +63,8 @@
 				phone	: "Please enter a valid phone number phone.main-js",
 				company	:	"This field is required",
 			}
+			// </sl:translate>
+
 		});
 		$('.demo-page .load_more').click(function(){
 			if(!form1.valid()) return;
@@ -81,7 +87,7 @@
 				company:	"required",
 				checkbox:	"required"
 			},
-			messages:{
+			messages:{ "sl_translate": "sl_all",
 				fullname:	"This field is required -main.js",
 				email	:	{
 					required:"This field is required",
@@ -115,7 +121,7 @@
 				limitation	:	"required",
 				hint		:	"required"
 			},
-			messages:{
+			messages:{ "sl_translate": "sl_all",
 				name		:	"This field is required-main.js",
 				email	:	{
 					required:"This field is required -main.js",
@@ -148,7 +154,7 @@
 				},
 				company		:	"required"
 				},
-				messages:{
+				messages:{ "sl_translate": "sl_all",
 					fullname		:	"This field is required -main.js",
 					email	:	{
 						required:"This field is required -main.js",
