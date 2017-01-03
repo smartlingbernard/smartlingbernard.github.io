@@ -51,12 +51,12 @@
 				company:	"required",
 			},
 			messages:{
-				fullname:	"This field is required",
+				fullname:	"This field is required name - main.js",
 				email	:	{
-					required:"This field is required",
-					customemail:"Please enter valid email address",
+					required:"This field is required email main.js",
+					customemail:"Please enter valid email address main.js",
 				},
-				phone	: "Please enter a valid phone number",
+				phone	: "Please enter a valid phone number phone.main-js",
 				company	:	"This field is required",
 			}
 		});
@@ -82,7 +82,7 @@
 				checkbox:	"required"
 			},
 			messages:{
-				fullname:	"This field is required",
+				fullname:	"This field is required -main.js",
 				email	:	{
 					required:"This field is required",
 					customemail:"Please enter valid email address",
