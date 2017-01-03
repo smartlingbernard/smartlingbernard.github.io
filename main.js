@@ -116,17 +116,17 @@
 				hint		:	"required"
 			},
 			messages:{
-				name		:	"This field is required",
+				name		:	"This field is required-main.js",
 				email	:	{
-					required:"This field is required",
+					required:"This field is required -main.js",
 					customemail:"Please enter valid email address",
 				},
 				phone	: "Please enter a valid phone number",
-				company		:	"This field is required",
-				firmware	:	"This field is required",
-				comment		:	"This field is required",
-				limitation	:	"This field is required",
-				hint		:	"This field is required"
+				company		:	"This field is required-main.js ",
+				firmware	:	"This field is required -main.js",
+				comment		:	"This field is required -main.js",
+				limitation	:	"This field is required -main.js",
+				hint		:	"This field is require -main.jsd"
 			}
 		});
 		var form_schedule = $('#schedule-form');
@@ -149,13 +149,13 @@
 				company		:	"required"
 				},
 				messages:{
-					fullname		:	"This field is required",
+					fullname		:	"This field is required -main.js",
 					email	:	{
-						required:"This field is required",
+						required:"This field is required -main.js",
 						customemail:"Please enter valid email address",
 					},
 					phone	: "Please enter a valid phone number",
-					company		:	"This field is required"
+					company		:	"This field is required -main.js"
 				}
 		});
 
