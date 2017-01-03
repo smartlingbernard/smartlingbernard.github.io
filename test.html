@@ -2,10 +2,19 @@
 <html>
 <head>
 	<title>Testing</title>
+	<script type="text/javascript" src="succint.js"></script>
+	<script>
+    $(function(){
+        $('.p2').succinct({
+            size: 20
+        });
+    });
+</script>
+
 </head>
 <body>
-<p>This is a paragraph of text that has been created for a translation test. Latin text is boring. This is just a test.</p>
-<p>This is a paragraph of text that has been created for a translation test. Latin text is boring. This is just a test.</p>
+<p class="p1">This is a paragraph of text that has been created for a translation test. Latin text is boring. This is just a test.</p>
+<p class="p2">This is a paragraph of text that has been created for a translation test. Latin text is boring. This is just a test.</p>
 
 
 </body>
