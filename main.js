@@ -52,9 +52,10 @@
 					customphone: true
 				},
 				company:	"required",
-			},// <sl:translate>
+			},
 			messages:{
-
+				"sl_translate": "sl_all",
+				test: "THIS IS A TEST",
 				fullname:	"This field is required name - main.js",
 				email	:	{
 					required:"This field is required email main.js",
@@ -63,7 +64,7 @@
 				phone	: "Please enter a valid phone number phone.main-js",
 				company	:	"This field is required",
 			}
-			// </sl:translate>
+			
 
 		});
 		$('.demo-page .load_more').click(function(){
